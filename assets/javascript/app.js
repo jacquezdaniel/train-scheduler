@@ -38,7 +38,10 @@ $("#addTrain").on("click", function(event) {
     frequency: frequency
   });
 
-    return false;
+$("#nameInput").val("");
+$("#destinationInput").val("");
+$("#firstTrainInput").val("");
+$("#frequencyInput").val("");
 });
 
 
